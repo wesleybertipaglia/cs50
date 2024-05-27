@@ -5,10 +5,11 @@ This repository contains my notes and exercises from the [CS50's Introduction to
 
 ### Features:
 
-- ✅ **Notes**: My notes from the course.
-- ✅ **Exercises**: My solutions to the exercises from the course.
-- ✅ **Lectures**: The lectures from the course.
+- ✅ **Lectures**: The lectures and notes from the course.
+- ✅ **Exercises**: My solutions to the exercises from the lectures.
 - ✅ **Problem Sets**: The problem sets from the course.
+- ✅ **Practice**: Extra exercises to practice.
+- ✅ **Final Project**: The final project from the course.
 - ✅ **Resources**: Useful resources to study computer science.
 
 ## 📄 Table of Contents
@@ -16,6 +17,7 @@ This repository contains my notes and exercises from the [CS50's Introduction to
 - [Resources](#-resources)
 - [Lectures](#-lectures)
 - [Problem Sets](#-problem-sets)
+- [Practice](#-practice)
 - [Final Project](#final-project)
 - [Contributing](#-contributing)
 - [License](#-license)
@@ -25,6 +27,8 @@ This repository contains my notes and exercises from the [CS50's Introduction to
 CS50's Introduction to Computer Science is a free online course offered by Harvard University. The course covers a wide range of topics, including algorithms, data structures, software engineering, web development, and more.
 
 The course is available on [edX](https://www.edx.org/course/cs50s-introduction-to-computer-science) and [Harvard University](https://cs50.harvard.edu/x/2024/).
+
+> 🐣 Enjoy learning computer science with CS50!
 
 ## 📚 Resources
 
@@ -50,6 +54,15 @@ You can also follow CS50 on social media:
 - [CS50 on Twitch](https://www.twitch.tv/cs50tv)
 - [CS50 on LinkedIn](https://www.linkedin.com/company/cs50/)
 - [CS50 on Discord](https://discord.gg/cs50)
+
+Other Editions:
+
+- [2024](https://cs50.harvard.edu/x/2024/)
+- [2023](https://cs50.harvard.edu/x/2023/)
+- [2022](https://cs50.harvard.edu/x/2022/)
+- [2021](https://cs50.harvard.edu/x/2021/)
+- [2020](https://cs50.harvard.edu/x/2020/)
+- [2019](https://cs50.harvard.edu/x/2019/)
 
 ## 📖 Lectures
 
@@ -83,6 +96,22 @@ The following problem sets are available in this repository:
 - [Problem Set 7](/problems/pset-7)
 - [Problem Set 8](/problems/pset-8)
 - [Problem Set 9](/problems/pset-9)
+
+## 🏋️ Practice
+
+The following practice exercises are available in this repository:
+
+- [Practice 1](/practice/week-1)
+- [Practice 2](/practice/week-2)
+- [Practice 3](/practice/week-3)
+- [Practice 4](/practice/week-4)
+- [Practice 5](/practice/week-5)
+- [Practice 6](/practice/week-6)
+- [Practice 7](/practice/week-7)
+- [Practice 8](/practice/week-8)
+- [Practice 9](/practice/week-9)
+
+> You can access all the practice exercises [here](https://cs50.harvard.edu/x/2024/practice/).
 
 ## Final Project
 
