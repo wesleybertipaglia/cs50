@@ -22,26 +22,14 @@ Manually installing the necessary software for the course on your own computer i
 
 You can open VS Code at [cs50.dev](https://cs50.dev/).
 
-## Hello World
+## Topics
 
-Let's write our first program in C, the language we will be using for the course.
-
-```c
-#include <stdio.h>
-
-int main(void)
-{
-    printf("hello, world\n");
-}
-```
-
-We will be using three commands to write, compile, and run our first program:
-
-```bash
-code hello.c
-make hello
-./hello
-```
+1. [Basics](1.%20basics.md)
+2. [Data Types](2.%20data-types.md)
+3. [Operators](3.%20operators.md)
+4. [Conditions](4.%20conditions.md)
+5. [Loops](5.%20loops.md)
+6. [Linux CLI](6.%20linux-cli.md)
 
 ## Resources
 

@@ -47,6 +47,18 @@ print("hello, world")
 - Puzzle Day and the CS50 Fair
 - You can attend CS50 Lunches and CS50 Hackathon, if you are student on Harvard’s campus.
 
+## Topics
+
+1. [Computer Science](1.%20computer-science.md)
+2. [Computer Programming](2.%20computer-programming.md)
+3. [ASCII](3.%20ascii.md)
+4. [Unicode](4.%20unicode.md)
+5. [Representation](5.%20representation.md)
+6. [Algorithms](6.%20algorithms.md)
+7. [Psuedocode](7.%20psuedocode.md)
+8. [Artificial Intelligence](8.%20artificial-intelligence.md)
+9. [Scratch](9.%20scratch.md)
+
 ## Resources
 
 - [Lecture](https://cs50.harvard.edu/x/2024/weeks/0/)
