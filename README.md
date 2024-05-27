@@ -16,6 +16,7 @@ This repository contains my notes and exercises from the [CS50's Introduction to
 - [Resources](#-resources)
 - [Lectures](#-lectures)
 - [Problem Sets](#-problem-sets)
+- [Final Project](#final-project)
 - [Contributing](#-contributing)
 - [License](#-license)
 
@@ -72,17 +73,20 @@ Lectures are available in this repository:
 
 The following problem sets are available in this repository:
 
-- [Problem Set 0](/problem-sets/pset-0)
-- [Problem Set 1](/problem-sets/pset-1)
-- [Problem Set 2](/problem-sets/pset-2)
-- [Problem Set 3](/problem-sets/pset-3)
-- [Problem Set 4](/problem-sets/pset-4)
-- [Problem Set 5](/problem-sets/pset-5)
-- [Problem Set 6](/problem-sets/pset-6)
-- [Problem Set 7](/problem-sets/pset-7)
-- [Problem Set 8](/problem-sets/pset-8)
-- [Problem Set 9](/problem-sets/pset-9)
-- [Problem Set 10](/problem-sets/pset-10)
+- [Problem Set 0](/problems/pset-0)
+- [Problem Set 1](/problems/pset-1)
+- [Problem Set 2](/problems/pset-2)
+- [Problem Set 3](/problems/pset-3)
+- [Problem Set 4](/problems/pset-4)
+- [Problem Set 5](/problems/pset-5)
+- [Problem Set 6](/problems/pset-6)
+- [Problem Set 7](/problems/pset-7)
+- [Problem Set 8](/problems/pset-8)
+- [Problem Set 9](/problems/pset-9)
+
+## Final Project
+
+Coming soon...
 
 ## 💻 Contributing
 
