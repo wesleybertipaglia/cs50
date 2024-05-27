@@ -1,7 +1,7 @@
 # 🐤 CS50's Introduction to Computer Science
 This repository contains my notes and exercises from the [CS50's Introduction to Computer Science](https://cs50.harvard.edu/x/2024/) course.
 
-![CS50](https://prod-discovery.edx-cdn.org/cdn-cgi/image/width=auto,height=auto,quality=75,format=webp/media/course/image/da1b2400-322b-459b-97b0-0c557f05d017-a3d1899c3344.small.png)
+![CS50's rubber duck](./assets/cover.jpg)
 
 ### Features:
 
