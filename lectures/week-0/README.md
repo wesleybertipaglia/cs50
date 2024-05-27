@@ -46,3 +46,12 @@ print("hello, world")
 - You are part of a community of those taking this course at Harvard College, Harvard Extension School, and via edX.org.
 - Puzzle Day and the CS50 Fair
 - You can attend CS50 Lunches and CS50 Hackathon, if you are student on Harvard’s campus.
+
+## Resources
+
+- [Lecture](https://cs50.harvard.edu/x/2024/weeks/0/)
+- [Slides](https://cdn.cs50.net/2023/fall/lectures/0/lecture0.pdf)
+- [Notes](https://cs50.harvard.edu/x/2024/notes/0/)
+- [Video](https://cs50.harvard.edu/x/2024/weeks/0/)
+- [Source Code](https://cdn.cs50.net/2023/fall/lectures/0/src0/)
+- [Problem Set 1](https://cs50.harvard.edu/x/2024/psets/0/)
