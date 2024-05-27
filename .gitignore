@@ -1,0 +1,141 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executable files
+*.out
+*.exe
+
+# Debug files
+*.dSYM/
+*.stackdump
+*.log
+
+# CMake build directory
+/build/
+CMakeFiles/
+
+# CodeLite IDE
+*.tags
+.tags*
+
+# CLion IDE
+.idea/
+
+# VSCode IDE
+.vscode/
+
+# JetBrains IDEs (PyCharm, CLion, IntelliJ, etc.)
+.idea/
+*.iml
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Python virtual environments
+venv/
+ENV/
+env/
+env.bak/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PIP
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.env.*
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# C++ generated files
+*.ii
+*.ll
+
+# Debug files
+*.dSYM/
+*.stackdump
+*.log
+
+# Mac OS X
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Compiled Python files
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Sphinx documentation
+docs/_build/
+
+# Pyre type checker
+.pyre/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
