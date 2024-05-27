@@ -1,4 +1,4 @@
-# Introduction
+# Week 0 - Scratch
 
 - This class is about more than computer programming!
 
