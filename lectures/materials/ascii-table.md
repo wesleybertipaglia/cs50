@@ -130,3 +130,5 @@
 | 125     | 1111101| 7D          | }         |
 | 126     | 1111110| 7E          | ~         |
 | 127     | 1111111| 7F          | DEL       |
+
+> If you want to see more ASCII characters, check the [ASCII Table](https://www.asciitable.com/).
