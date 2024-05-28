@@ -20,7 +20,7 @@ int binarySearch(int arr[], int size, int target);
 
 int main()
 {
-    int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int arr[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
     int target;
     int size = sizeof(arr) / sizeof(arr[0]);
 
@@ -43,12 +43,12 @@ int main()
 
 int binarySearch(int arr[], int size, int target)
 {
-    int left = 0;
-    int right = size - 1;
+    int start = 0;
+    int end = size - 1;
 
-    while (left <= right)
+    while (start <= end)
     {
-        int mid = left + (right - left) / 2;
+        int mid = start + (end - start) / 2;
 
         if (arr[mid] == target)
         {
@@ -56,11 +56,11 @@ int binarySearch(int arr[], int size, int target)
         }
         else if (arr[mid] < target)
         {
-            left = mid + 1;
+            start = mid + 1;
         }
         else
         {
-            right = mid - 1;
+            end = mid - 1;
         }
     }
 
