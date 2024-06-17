@@ -1,0 +1,7 @@
+1. Energy: 0.659
+2. Valence: 0.484
+3. Danceability: 0.716
+
+If the average energy of the listener’s top 100 songs is high, combined with a high valence and danceability,
+their audio aura could be characterized as vibrant, upbeat, and possibly uplifting.
+This suggests that they enjoy energetic and positive music that is likely to uplift their mood and encourage activity or dance.
