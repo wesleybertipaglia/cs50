@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Trivia!</title>
+    <script>
+        function checkAnswers() {
+            const mcqAnswer = document.querySelector('input[name="question-1"]:checked');
+            const mcqCorrect = mcqAnswer && mcqAnswer.value === "paris";
+
+            const freeResponseAnswer = document.getElementById("question-2").value.trim().toLowerCase();
+            const freeResponseCorrect = freeResponseAnswer === "sun";
+
+            let resultMessage = "Results:\n";
+            resultMessage += `Multiple Choice: ${mcqCorrect ? "Correct" : "Incorrect"}\n`;
+            resultMessage += `Free Response: ${freeResponseCorrect ? "Correct" : "Incorrect"}`;
+            alert(resultMessage);
+        }
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1>Trivia!</h1>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>Part 1: Multiple Choice</h2>
+            <hr>
+            <p>What is the capital of France?</p>
+            <input type="radio" id="paris" name="question-1" value="paris">
+            <label for="paris">Paris</label><br>
+            <input type="radio" id="london" name="question-1" value="london">
+            <label for="london">London</label><br>
+            <input type="radio" id="rome" name="question-1" value="rome">
+            <label for="rome">Rome</label><br>
+        </div>
+
+        <div class="section">
+            <h2>Part 2: Free Response</h2>
+            <hr>
+            <p>What is the center of our solar system?</p>
+            <input type="text" id="question-2">
+        </div>
+
+        <button onclick="checkAnswers()">Submit</button>
+    </div>
+</body>
+</html>
