@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Account
+{% endblock %}
+
+{% block main %}
+    <div>
+        <h1>Account</h1>
+        <ul class="list-group">
+            <li class="list-group-item">Username: {{ user.username }}</li>
+            <li class="list-group-item">Cash: {{ user.cash }}</li>
+        </ul>
+    </div>
+
+    <div class="mt-5">
+        <h2>Settings</h2>
+        <ul class="list-group">
+            <li class="list-group-item"><a href="/cash">Add Cash</a></li>
+            <li class="list-group-item"><a href="/password">Change Password</a></li>
+            <li class="list-group-item"><a href="/delete">Delete Account</a></li>
+        </ul>
+    </div>
+{% endblock %}

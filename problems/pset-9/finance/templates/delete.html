@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Delete Account
+{% endblock %}
+
+{% block main %}
+    <h1>Delete Account</h1>
+    
+    <form action="/delete" method="post">
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="password" placeholder="Password" type="password">
+        </div>
+        <button class="btn btn-primary" type="submit">Delete</button>
+    </form>
+{% endblock %}
