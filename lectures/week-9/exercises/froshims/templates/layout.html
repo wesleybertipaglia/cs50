@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Froshims | {% block title %}{% endblock %}
+    </title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/register">Register</a></li>
+                <li><a href="/login">Log In</a></li>
+                <li><a href="/students">Students</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    {% block body %}{% endblock %}
+
+    <footer>
+        <hr>
+        <p>&copy; <span id="year"></span>  FROSHIMS</p>
+    </footer>
+
+    <script>
+        document.querySelector("#year").innerText = new Date().getFullYear();
+    </script>
+</body>
+</html>

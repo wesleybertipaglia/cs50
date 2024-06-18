@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Students
+{% endblock %}
+
+{% block body %}
+
+    <h1>Students</h1>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Username</th>
+            <th>Sport</th>
+        </tr>
+        {% for student in students %}
+            <tr>
+                <td>{{ student.name }}</td>
+                <td>{{ student.username }}</td>
+                <td>{{ student.sport }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <a href="/">Home page</a>
+
+{% endblock %}

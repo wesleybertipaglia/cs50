@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Success
+{% endblock %}
+
+{% block body %}
+
+    <h1>Success!</h1>
+    <p>
+        {% if message %}
+            {{ message }}
+        {% else %}
+            The action was successful.
+        {% endif %}
+    </p>
+
+    <a href="/">Home page</a>
+    <a href="/students">Students page</a>
+
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Failure
+{% endblock %}
+
+{% block body %}
+
+    <h1>Sorry!</h1>
+
+    {{ student }}
+
+    <p>
+        {% if message %}
+            {{ message }}
+        {% else %}
+            Something went wrong.
+        {% endif %}
+    </p>
+
+    <a href="/">Home page</a>
+
+{% endblock %}

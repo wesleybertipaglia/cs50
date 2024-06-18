@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+{% block body %}
+    <h1>Register</h1>
+    <form action="/register" method="post">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" required placeholder="Name" /> <br>
+
+        <label for="name">Username: </label>
+        <input type="text" name="username" id="username" required placeholder="username" /> <br>
+
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" required placeholder="Password" /> <br>
+
+        <label for="sport">Sport: </label>
+        <select name="sport" id="sport" required>
+            <option value="" disabled selected>Sport</option>
+            {% if sports %}
+                {% for sport in sports %}
+                    <option value="{{ sport[1] }}">{{ sport[1] }}</option>
+                {% endfor %}
+            {% endif %}
+        </select> <br><br>
+
+        <button type="submit">
+            Register
+        </button>
+
+        <hr>
+        <small>
+            Already registered? <a href="/login">Log In</a>
+        </small>
+    </form>
+{% endblock %}

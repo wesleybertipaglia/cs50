@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block title %}Greet{% endblock %}
+
+{% block body %}
+    <form method="get" action="/greet">
+        <input type="text" name="name" autocomplete="off" autofocus required>
+        <button type="submit">Submit</button>    
+    </form>
+{% endblock %}

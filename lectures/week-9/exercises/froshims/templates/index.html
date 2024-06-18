@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block body %}
+
+    <h1>FROSHIMS</h1>
+    <p>
+        {% if student %}
+            You are logged in as {{ student.name }}. <a href="/logout">Log out</a>
+        {% else %}
+            You are not logged in. <a href="/login">Log in</a>
+        {% endif %}
+    </p>
+    <p>
+        Welcome to FROSHIMS, the exclusive sports club! We're so excited to have you.
+    </p>
+    <p>
+        <a href="/register">Register</a> for an account to get started, or <a href="/login">log in</a> if you already have an account.
+    </p>
+
+{% endblock %}
